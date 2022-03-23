@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Portfolio de Lucas Figueiredo">
+    <title>Lucas Figueiredo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="#about">Sobre</a>
+            <a class="cabecalho-menu-item" href="#formation">Formação</a>
+            <a class="cabecalho-menu-item" href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <div class="background">
+        <main class="conteudo">
+            <section class="conteudo-principal" id="about">
+                <div class="conteudo-principal-div">
+                    <h1 class="conteudo-principal-h1">Sobre mim:</h1>
+                    <p class="conteudo-principal-p">Meu nome é <strong>João Lucas Figueiredo</strong>, tenho 26 anos e sou formado em Arquitetura e Urbanismo. Hoje busco uma mudança de carreira iniciando o Curso de <strong>Análise e Desenvolvimento de Sistemas</strong> na faculdade Estácio. Busco ingressar no mercado de trabalho demonstrando meus conhecimento...</p>
+
+                    <button onclick="showModal()" class="conteudo-button">Saiba mais...</button>
+                        <div class="modal" id="modal">
+                            <div class="modal-content">
+                                <span onclick="hidenModal()">&times;</span>
+                                    <h1>Sobre mim:</h1>
+                                    <p><br>Meu nome é <strong>João Lucas Figueiredo</strong>, tenho 26 anos e sou formado em Arquitetura e Urbanismo. Hoje busco uma mudança de carreira iniciando o Curso de <strong>Análise e Desenvolvimento de Sistemas</strong> na faculdade Estácio. Hoje tenho como objetivo buscar uma oportunidade de ingressar no mercado de trabalho, utilizando meus conhecimentos para começar uma carreira e continuar com minhas qualificações profissionais. Além disso, contribuir e desenvolver em um ambiente de trabalho onde possa colocar em pratica os meus conhecimentos. Trazendo assim um crescimento organizacional alinhado com o crescimento profissional.</p>
+                                    <h3><br>Competências:</h3>
+                                    <p><br>Liderança</p>
+                                    <p>Comunicação</p>
+                                    <p>Trabalho em equipe</p>
+                                    <p>Fácil aprendizagem</p>
+                                    <a href="CV-JLFIGUEIREDO.pdf" target="_blank"><br>CV - Lucas Figueiredo</a>
+                            </div>
+                        </div>
+                </div>   
+
+                <img class="conteudo-principal-img" src="eu-sobre.png" alt="Minha foto">
+            </section>
+        </div>
+        
+        <section class="conteudo-secundario" id="formation">
+            <div class="conteudo-secundario-div">
+                <h3 class="conteudo-secundario-h3">Formação:</h3>
+                <p class="conteudo-secundario-p">Formado em <strong>Arquitetura e Urbanismo</strong> no final de 2020, hoje busco uma mudança de carreira para área de TI. Desde o inicio de 2021 busco qualificações para ingressar no mercado da <strong>tecnologia da informação</strong>, fazendo diversos cursos online no Alura, onde adquiri conhecimentos nas <strong>linguagem de HTML5 & CSS, JavaScript, Excel</strong>, entre outras formações.</p>     
+            </div>
+            <div class="conteudo-secundario-img">
+                <img class="conteudo-secundario-img1" src="html.png" alt="imagem icon js">
+                <img class="conteudo-secundario-img2" src="css.png" alt="imagem icon js">
+                <img class="conteudo-secundario-img3" src="js.png" alt="imagem icon js">
+            </div>
+        </section>
+        <section class="conteudo-secundario-portfolio">
+            <div class="conteudo-secundario-portfolio-div">
+                <h3 class="contaudo-secundario-portfolio-h3">Projetos e Portfolio:</h3>
+                <p class="conteudo-secundario-portfolio-p">Alguns dos meus projetos desenvolvido ou em desenvoldimento:</p>
+            </div>
+        </section>
+
+    <div class="background">
+
+        <section  class="contact" id="contact">
+            <div class="conteudo-contatos-div">
+                <h3 class="conteudi-contatos-h3">Contatos:</h3>
+            </div>
+            <div class="conteudo-contatos-img">
+                <a href="mailto:jlucasfigueiredo@hotmail.com.br">
+                    <img class="img-contato" src="email.png" alt="icon e-mail">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5581999494511" target="_blank" rel="noopener noreferrer">
+                    <img class="img-contato" src="whatsapp.png" alt="icon whatsapp">
+                </a>
+                <a href="https://twitter.com/jlukaf13" target="_blank" rel="noopener noreferrer">
+                    <img class="img-contato" src="twitter.png" alt="icon twitter">
+                </a>
+                <a href="https://www.instagram.com/jl.fig/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-contato" src="instagram.png" alt="icon instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/jlukaf/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-contato" src="linkedin.png" alt="icon linkedin">
+                </a>
+                <a href="https://github.com/jl-fig13/" target="_blank" rel="noopener noreferrer">
+                    <img class="img-contato" src="gethub.png" alt="icon github">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    </main>
+    <footer class="rodape">
+        <p>Todos os direitos reservados - Copyright Oficial Brasil©</p>
+    </footer>
+</body>
+</html>

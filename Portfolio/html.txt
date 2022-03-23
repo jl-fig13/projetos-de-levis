@@ -1,0 +1,2 @@
+Tag -> Classe -> ul -> Lista + id lista * 5 -> <a> + link
+nav.navegation>ul>li#item$*5>a:link
